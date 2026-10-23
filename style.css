@@ -18,8 +18,21 @@ body {
     display: block;
 }
 
+.img-frutas {
+    width: 450px;
+
+}
+
 p {
     margin-top: 0;
+}
+
+.img-parrafo {
+    display: flex;
+    align-items: center;
+    color: rgb(15, 108, 29);
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .container {
@@ -127,8 +140,8 @@ nav a {
 
 /* --- SECTION 4 --- */
 .cuarta-seccion img {
-    width: 65px;
-    height: 65px;
+    width: 100px;
+
     object-fit: contain;
     margin: 0 auto 10px;
 }
@@ -160,6 +173,7 @@ nav a {
     display: flex;
     margin: 55px;
     gap: 35px;
+    justify-content: space-around;
 
 }
 
@@ -176,8 +190,11 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     padding: 40px 6%;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: rgb(23, 107, 12);
 
 }
 
@@ -198,6 +215,8 @@ nav a {
     max-width: 600px;
 
 }
+
+
 
 /* --- SECTION TESTIMONIO --- */
 
@@ -227,7 +246,7 @@ nav a {
     flex-direction: row;
     gap: 25px;
     margin: 20px;
-    padding: 0 90px;
+
 
 
 
@@ -246,9 +265,10 @@ nav a {
 .section-1 {
     background-image: url("./img/LA\ MESITA.png");
     background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
-.section-1 > div {
+.section-1>div {
     display: flex;
     justify-content: space-between;
     padding: inherit;
@@ -282,9 +302,10 @@ img.frutas-img {
 
 .accion-boton {
     display: flex;
-    margin-left: 60px;
-    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-bottom: 100px;
     align-items: flex-end;
+     
 
 }
 
@@ -316,8 +337,9 @@ footer img {
     width: 250px;
     height: 250px;
     object-fit: contain;
-    
+
 }
+
 .quinoa-pie img {
     max-width: 150px;
     height: auto;
@@ -337,4 +359,28 @@ footer img {
     object-fit: contain;
     gap: 50px;
 
+}
+
+.tele-fono {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+   margin: 10px;
+    
+}
+.correo-msj{
+     display: flex;
+    font-size: 20px;
+    align-items: center;
+    
+
+}
+
+.boton-accion {
+    background-color: #e4b047;
+    color: black;
+    box-shadow: 1px 4px 10px 1px black;
+    border: none;
+    border-radius: 10px;
+    transition: ;
 }
